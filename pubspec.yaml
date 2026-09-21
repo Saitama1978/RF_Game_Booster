@@ -18,14 +18,13 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^4.0.0
-  # DAGDAGAN ITO PARA SA ICON:
   flutter_launcher_icons: ^0.13.1
 
-# IPASOK ANG CONFIGURATION NA ITO SA IBABA NG PUBSPEC.YAML
-flutter_icons:
+# CONFIGURATION PARA SA ICON (ANDROID LANG, WALANG IOS ERROR)
+flutter_launcher_icons:
   android: "ic_launcher"
-  ios: true
-  image_path: "icon.png" # Siguraduhing naroon ang icon.png sa root folder ng GitHub repository
+  ios: false
+  image_path: "icon.png"
   min_sdk_android: 21
 
 flutter:
