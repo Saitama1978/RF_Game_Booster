@@ -1,5 +1,5 @@
 name: game_booster
-description: "A sleek Game Booster launcher with Monitoring, DND, Ping Tester, and Crosshair Overlay by Renante Fullo."
+description: "A sleek Game Booster launcher."
 publish_to: 'none'
 version: 1.0.0+1
 
@@ -18,6 +18,15 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^4.0.0
+  # DAGDAGAN ITO PARA SA ICON:
+  flutter_launcher_icons: ^0.13.1
+
+# IPASOK ANG CONFIGURATION NA ITO SA IBABA NG PUBSPEC.YAML
+flutter_icons:
+  android: "ic_launcher"
+  ios: true
+  image_path: "icon.png" # Siguraduhing naroon ang icon.png sa root folder ng GitHub repository
+  min_sdk_android: 21
 
 flutter:
   uses-material-design: true
