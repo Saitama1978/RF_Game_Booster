@@ -1,5 +1,5 @@
 name: game_booster
-description: "A sleek Game Booster launcher for MLBB and Honor of Kings by Renante Fullo."
+description: "A sleek Game Booster launcher with Monitoring, DND, Ping Tester, and Crosshair Overlay by Renante Fullo."
 publish_to: 'none'
 version: 1.0.0+1
 
